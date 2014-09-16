@@ -4,6 +4,7 @@ $if(fontfamily)$
 $else$
 \usepackage{lmodern}
 $endif$
+\usepackage[margin=0.5in]{geometry}
 $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
